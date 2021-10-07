@@ -1,0 +1,7 @@
+{
+    "files.autoSaveDelay": 500,
+    "files.autoSave": "afterDelay",
+    "editor.accessibilitySupport": "on",
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on"
+}

@@ -1,0 +1,92 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar ul{
+list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar li{
+    text-align: center;
+    padding: 5px;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.header a{
+    text-decoration: none;
+    color: white;
+    margin: 0 25px;
+}
+
+.header {
+    background-color: black;
+    padding: .5rem 0;
+}
+
+.navbar button{
+    background-color: #6c2c96;
+    padding: 10px 20px;
+   color: white;
+   border: 3px solid #6c2c96;
+}
+.navbar button:hover{
+    background-color: white;
+    padding: 10px 20px;
+   color: black;
+   border: 3px solid #6c2c96;;
+  
+}
+
+.navbar ul a:hover{
+    color: #6c2c96;
+    
+}
+.navbar ul a{
+    color: gray;
+}
+
+.about {
+    background-color: #6ad4cd ;
+    color: white;
+}
+
+.about #button-addon1{
+    background-color: #6c2c96;
+    padding: 10px 20px;
+}
+
+.about #emailBox{
+    margin: 0 10px;
+}
+
+.footer #link{
+    background-color: #e3e3e3;
+}
+
+.footer{
+    color: gray;
+}
+
+hr {
+    margin: 1rem 0;
+    color: grey;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
